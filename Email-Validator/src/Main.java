@@ -104,9 +104,14 @@ public class Main extends Component implements ActionListener {
     public void actionPerformed(ActionEvent e) {
         if (e.getSource() == btn) {
             String email = tf.getText();
+
             if(valEmail(email) == true){
+                ta1.setAlignmentX(Component.CENTER_ALIGNMENT);
+                ta1.setFont(new Font("Caliber",Font.BOLD,45));
                 ta1.setText(" Congratulations ! \n The provided email is valid.");
             } else if (valEmail(email) == false) {
+                ta1.setAlignmentX(Component.CENTER_ALIGNMENT);
+                ta1.setFont(new Font("Caliber",Font.BOLD,25));
                 ta1.setText(" !!! INVALID EMAIL PROVIDED !!! \n !!! The provided email is invalid !!! \n !!! Check the provided email once more !!! ");
             }
             else{
