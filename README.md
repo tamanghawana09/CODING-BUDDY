@@ -1,4 +1,4 @@
-### EMAIL VALIDATOR TOOL
+# EMAIL VALIDATOR TOOL
 Using this tool email can be checked whether it is valid or not.
 <hr>
 
